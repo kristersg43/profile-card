@@ -1,0 +1,103 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+  background-color: #19a2ae;
+  background-image: url("../../images/bg-pattern-top.svg"), url("../../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%, 100% -50%;
+}
+
+.card {
+  width: 400px;
+  border-radius: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.08), 0 30px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card .image-bg {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 60px;
+}
+
+.card .image-profile {
+  border: white 7px solid;
+  border-radius: 75px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -25%);
+}
+
+.card .name {
+  text-align: center;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card .name .age {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-left: 5px;
+}
+
+.card .location {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #969696;
+}
+
+.card .hl {
+  border-bottom: 2px solid #ededed;
+  height: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card .count {
+  float: left;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-bottom: 8px;
+  width: 33.33%;
+}
+
+.card .count span {
+  font-weight: 700;
+}
+
+.card .count-title {
+  float: left;
+  color: #969696;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 33.33%;
+}
+
+.card .count-title span {
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: $font-md;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $veryDarkBlue;
+    background-color: $darkCyan;
+    background-image: url('../../images/bg-pattern-top.svg'), url('../../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 50%, 100% -50%;
+} 

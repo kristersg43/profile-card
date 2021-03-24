@@ -1,0 +1,26 @@
+// Primary
+$darkCyan: hsl(185, 75%, 39%);
+$veryDarkBlue: hsl(229, 23%, 23%);
+$darkGrayishBlue: hsl(227, 10%, 46%);
+$white: hsl(0, 0%, 100%);
+$darkGray: hsl(0, 0%, 59%);
+$lightGray: hsl(0, 0%, 93%);
+
+// Font sizes
+$font-xs: 0.75rem; // 14px
+$font-sm: 0.875rem; // 14px
+$font-md: 1.125rem; // 18px
+
+//Font weights
+$font-light: 400;
+$font-bold: 700;
+
+//Mixins
+@mixin flexCenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+

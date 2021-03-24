@@ -1,0 +1,77 @@
+.card {
+    width: 400px;
+    border-radius: 15px;
+    @include flexCenter();
+    background-color: $white;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.08), 0 30px 30px rgba(0, 0, 0, 0.08);
+
+    .image-bg {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 60px;
+    }
+
+    .image-profile {
+        border: $white 7px solid;
+        border-radius: 75px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -25%);
+    }
+
+    .name {
+        text-align: center;
+        font-weight: $font-bold;
+        color: $veryDarkBlue;
+
+        .age {
+            font-weight: $font-light;
+            color: $darkGrayishBlue;
+            margin-left: 5px;
+        }
+    }
+
+    .location {
+        text-align: center;
+        font-size: $font-sm;
+        color: $darkGray;
+    }
+
+    .hl {
+        border-bottom: 2px solid $lightGray;
+        height: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .count {
+        float: left;
+        font-size: $font-md;
+        text-align: center;
+        margin-bottom: 8px;
+        width: 33.33%;
+
+        span {
+            font-weight: $font-bold;
+        }
+    }
+
+    .count-title {
+        float: left;
+        color: $darkGray;
+        font-size: $font-xs;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 33.33%;
+
+        span {
+            font-weight: $font-light;
+        }
+    }
+}
